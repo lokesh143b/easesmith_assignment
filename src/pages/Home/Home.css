@@ -1,0 +1,44 @@
+
+.search-bar{
+    width: 370px;
+    height: 26px;
+    border: 1px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    margin: auto;
+    padding-bottom: 10px;
+    gap: 15px;
+}
+.search-bar input{
+    border: none;
+}
+.search-bar img{
+    width: 32.24px;
+    margin-left: auto;
+}
+
+.buttons-container{
+    padding: 0px 40px;
+    
+}
+.button-1{
+    width: 114px;
+    height: 37px;
+    background: #165315;
+    color: #ffffff;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+.button-2{
+    width: 114px;
+    height: 37px;
+    color: gray;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+.buttons-container p{
+    margin-top: 15px;
+    color: gray;
+    font-size: 15px;
+}

@@ -1,0 +1,34 @@
+.nursery-container{
+    padding: 20px 40px;
+}
+.nursery-container h1{
+    font-size: 20px;
+    width: 96px;
+}
+.nursery-information{
+    display: flex;
+    gap: 15px;
+    overflow-x: scroll;
+}
+.nursery-information::-webkit-scrollbar{
+    display: none;
+}
+.nursery-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.nursery-item img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.nursery-item p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+
+}
